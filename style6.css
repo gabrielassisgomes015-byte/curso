@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+section{
+    background-image: url("https://cdn.motor1.com/images/mgl/9myzzG/s3/le-auto-col-cambio-manuale-piu-potenti.jpg");
+
+    width: 100%;
+    height: 646px;
+}
