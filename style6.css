@@ -9,5 +9,44 @@ section{
     background-image: url("https://cdn.motor1.com/images/mgl/9myzzG/s3/le-auto-col-cambio-manuale-piu-potenti.jpg");
 
     width: 100%;
-    height: 646px;
+    height: 630px;
+
+}
+.title{
+    color: aliceblue;
+    position: absolute;
+    top: 40%;
+    
+
+}
+.title span:nth-child(1){
+    position: absolute;
+    left: 106px;
+}
+
+.title span:nth-child(2){
+    position: absolute;
+    left: 376px;
+}
+.title span:nth-child(3){
+    position: absolute;
+    left: 618px;
+
+}
+.title span:nth-child(4){
+    position: absolute;
+    left: 882px;
+
+}
+.title span:nth-child(5){
+    position: absolute;
+    left: 1136px;
+}
+.title span:nth-child(6){
+    position: absolute;
+    left: 1348px;
+}
+.title span {
+    font-size: 50px;
+    color: black;
 }
