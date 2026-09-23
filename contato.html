@@ -17,14 +17,28 @@
 
     <main>
         <h2>Fale Conosco</h2>
+
         <p class="subtitle">Tem alguma duvida ou precisa de suporte? Envie uma mensagem!</p>
-        <form class="contact-form"></form>
-        <label for="name">Nome comple</label>
-        <input type="text"id="name" placeholder="Digite seu nome"required>
+
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Nome completo</label>
+                <input type="text"id="name" placeholder="Digite seu nome"required>
+                
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="seu@email" required>
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..."required></textarea>
+            </div>
+        </form>
     </main>
 
     <footer>
-
+        <p>&copy;2026 TeachStore. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
