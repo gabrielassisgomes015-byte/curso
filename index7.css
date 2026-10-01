@@ -1,0 +1,201 @@
+/* Resetando as configurações padrões do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8fafc;
+    color: #334155;
+
+    display: flex;
+    flex-direction: column;
+    /* Altura minima */
+    min-height: 100vh;
+}
+
+/* Cabeçalho */
+
+header {
+    background-color: #0f172a;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilizando um elemento a partir da sua classe */
+.logo {
+    color: #FFF;
+    font-size: 1.5rem;
+    /* Coloca a fonte em negrito */
+    font-weight: bold;
+}
+
+nav a {
+    color: #94a3b8;
+    /* Tira a decoração do link ( underline ) */
+    text-decoration: none;
+    margin-left: 20px;
+    /* Peso da fonte ( negrito ) */
+    font-weight: 500;
+    /* Aplica uma transição */
+    transition: .2s;
+}
+
+/* Aplica um efeito ao passar o ponteiro por cima de um elemento */
+nav a:hover,
+nav a.active {
+    color: #38bdf8;
+}
+
+.banner {
+    /* Adiciona um gradiente */
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    color: #FFF;
+    /* Alinha o texto ao centro */
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.banner h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+    flex: 1;
+}
+
+.container h2 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: #0f172a;
+}
+
+.subtitle {
+    margin-bottom: 25px;
+    color: #64748b;
+}
+
+/* Grade de produtos */
+
+.product-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #FFF;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    width: 280px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    /* Encaixe do objeto */
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card h3{
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+
+}
+.description{
+    font-size: 1.3rem;
+    color: #64748b;
+    margin-bottom: 15px;
+    flex-grow: 1;
+}
+
+.price{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color:#38bdf8;
+    margin-bottom: 15px;
+
+}
+
+.btn{
+    background-color: #38bdf8;
+    color: #FFF;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s;
+    width: 100%;
+
+}
+
+.btn:hover{
+    background-color: blue;
+
+}
+
+.contact-form{
+    background-color: #FFF;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    max-width: 500px;
+
+
+}
+
+.form-group label{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-group label{
+    margin-bottom: 5px;
+    display: flex;
+    font-weight: 500;
+}
+.form-group input,
+.form-group textarea{
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 95rem;
+
+}
+
+.form-group input:focus,
+.form-group textarea:focus{
+    outline: none;
+    border-color: #0284c7;
+
+
+
+}
+
+.footer{
+    background-color: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: .9rem;
+}
